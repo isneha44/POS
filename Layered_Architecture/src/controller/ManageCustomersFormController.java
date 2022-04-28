@@ -70,7 +70,7 @@ public class ManageCustomersFormController {
 
     private void initUI() {
     }
-
+    //load all coustomers
     private void loadAllCustomers() throws SQLException, ClassNotFoundException {
         tblCustomers.getItems().clear();
         /*Get all customers*/
